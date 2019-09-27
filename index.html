@@ -1,0 +1,387 @@
+<!DOCTYPE html5>
+<html lang="it" dir="ltr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/svg" sizes="16x16" href="img/logo.svg">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Krub&display=swap" rel="stylesheet">
+
+    <title>GitMib | Home</title>
+
+    <style media="screen">
+
+    body {
+      background-color: white; /*use this 1a1a1a*/
+      line-height: 1.8;
+      color: black; /*use this f5f6f7*/
+    }
+    p {font-size: 20px;}
+    .margin {margin-bottom: 45px;}
+    .bg-1 {
+      background-color: #1a1a1a; /* Dark Green 003333*/ /* blue 00394d*/
+      color: #ffffff;
+    }
+    .bg-2 {
+      background-color: #262626;
+      color: #ffffff;
+    }
+    .container-fluid {
+      padding-top: 100px;
+      padding-bottom: 80px;
+    }
+    .noappunti {
+      font-size: 17px;
+      color: grey;
+    }
+    .prefooter {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    /* Colori dell'item attivo */
+    .list-group-item.active,
+    .list-group-item.active:hover,
+    .list-group-item.active:focus {
+      z-index: 2;
+      color: #ffffff;
+      background-color: #1a9959;
+      border-color: grey;
+    }
+    .btn-link {
+      color: #126d40;
+    }
+    .btn-link:hover {
+      color: #16834d;
+    }
+    a {
+      color: #0f5733;
+    } */
+
+    /* Style buttons */
+    /*
+    .btn {
+     background-color: #1a1a1a;
+     border: none;
+     color: white;
+     padding: 10px 15px;
+     cursor: pointer;
+     font-size: 15px;
+    }
+    */
+    /* Darker background on mouse-over */
+    /*
+    .btn:hover {
+     background-color: #a6a6a6;
+    } */
+    </style>
+  </head>
+  <body>
+
+    <!--Hello-->    
+    <div class="container-fluid text-center" align="center">
+      <!--Logo-->
+      <img src="img/logo.svg" height="128" width="128">
+      <h1 class="display-4">Hello, mate!</h1>
+        <p class="lead">Questa è la mega repo ufficiale degli studenti di informatica di UNIMIB.</p>
+        <hr class="my-1">
+        <p>Cerchiamo sempre di produrre buoni appunti e contenuti utili per tutta la community.</p>
+    </div>
+
+    <!--List-->
+    <div class="container">
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Primo anno
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <!--Materie primo anno-->
+            <div class="row">
+              <div class="col-6">
+                <div class="list-group" id="1stList" role="tablist">
+                  <a class="list-group-item list-group-item-action" id="list-ALGEBRA-list" data-toggle="list" href="#list-ALGEBRA" role="tab" aria-controls="ALGEBRA">
+                    <span class="badge badge-success badge-pill">1</span> Algebra lineare e geometria </a>
+                  <a class="list-group-item list-group-item-action" id="list-ASD-list" data-toggle="list" href="#list-ASD" role="tab" aria-controls="ASD">
+                    <span class="badge badge-success badge-pill">4</span> Algoritmi e strutture dati </a>
+                  <a class="list-group-item list-group-item-action" id="list-ANALISI-list" data-toggle="list" href="#list-ANALISI" role="tab" aria-controls="ANALISI">
+                    <span class="badge badge-success badge-pill">1</span> Analisi matematica </a>
+                  <a class="list-group-item list-group-item-action" id="list-ARCHITETTURA-list" data-toggle="list" href="#list-ARCHITETTURA" role="tab" aria-controls="ARCHITETTURA">
+                    <span class="badge badge-success badge-pill">2</span> Architettura degli elaboratori </a>
+                  <a class="list-group-item list-group-item-action" id="list-FONDAMENTI-list" data-toggle="list" href="#list-FONDAMENTI" role="tab" aria-controls="FONDAMENTI">
+                    <span class="badge badge-success badge-pill">2</span> Fondamenti dell'informatica </a>
+                  <a class="list-group-item list-group-item-action" id="list-PROG1-list" data-toggle="list" href="#list-PROG1" role="tab" aria-controls="PROG1">
+                    <span class="badge badge-success badge-pill">1</span> Programmazione 1 </a>
+                  <a class="list-group-item list-group-item-action" id="list-PROG2-list" data-toggle="list" href="#list-PROG2" role="tab" aria-controls="PROG2">
+                    <span class="badge badge-success badge-pill">1</span> Programmazione 2 </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade" id="list-ALGEBRA" role="tabpanel" aria-labelledby="list-ALGEBRA-list">
+                    <a href="https://github.com/dlcgold/Appunti/tree/master/Primo%20Anno/Algebra%20Lineare%20e%20Geometria">Algebra - dlcgold</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-ASD" role="tabpanel" aria-labelledby="list-ASD-list">
+                    <a href="https://github.com/amarusofia/Appunti-universitari/tree/master/Algoritmi%20e%20Strutture%20Dati/tex">Algoritmi - Sofia</a> <br>
+                    <a href="https://github.com/JacopoDeAngelis/Appunti-universitari/tree/master/Algoritmi%20e%20strutture%20dati">Algoritmi - Jacopo</a> <br>
+                    <a href="https://github.com/dlcgold/Appunti/tree/master/Primo%20Anno/Algoritmi%20e%20Strutture%20Dati">Algoritmi - dlcgold</a> </br>
+                    <a href="https://github.com/bigboss98/appunti/tree/master/Algoritmi">Algoritmi - bigboss98</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-ANALISI" role="tabpanel" aria-labelledby="list-ANALISI-list">
+                    <a href="https://github.com/dlcgold/Appunti/tree/master/Primo%20Anno/Analisi%20Matematica">Analisi - dlcgold</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-ARCHITETTURA" role="tabpanel" aria-labelledby="list-ARCHITETTURA-list">
+                    <a href="https://github.com/dlcgold/Appunti/tree/master/Primo%20Anno/Architettura%20degli%20Elaboratori">Architettura - dlcgold</a> <br>
+                    <a href="https://github.com/bigboss98/appunti/tree/master/Architetture">Architettura - bigboss98</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-FONDAMENTI" role="tabpanel" aria-labelledby="list-FONDAMENTI-list">
+                    <a href="https://github.com/dlcgold/Appunti/tree/master/Primo%20Anno/Fondamenti">Fondamenti - dlcgold</a> <br>
+                    <a href="https://github.com/bigboss98/appunti/tree/master/Fondamenti">Fondamenti - bigboss98</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-PROG1" role="tabpanel" aria-labelledby="list-PROG1-list">
+                    <a href="https://github.com/JacopoDeAngelis/Appunti-universitari/tree/master/Programmazione%20Java">Programmazione 1 e 2 - Jacopo</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-PROG2" role="tabpanel" aria-labelledby="list-PROG2-list">
+                    <a href="https://github.com/JacopoDeAngelis/Appunti-universitari/tree/master/Programmazione%20Java">Programmazione 1 e 2 - Jacopo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Secondo anno
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <!--Materie secondo anno-->
+            <div class="row">
+              <div class="col-6">
+                <div class="list-group" id="2ndList" role="tablist">
+                  <a class="list-group-item list-group-item-action" id="list-APS-list" data-toggle="list" href="#list-APS" role="tab" aria-controls="APS">
+                    <span class="badge badge-secondary badge-pill">0</span> Analisi e progettazione del software </a>
+                  <a class="list-group-item list-group-item-action" id="list-DB-list" data-toggle="list" href="#list-DB" role="tab" aria-controls="DB">
+                    <span class="badge badge-success badge-pill">2</span> Basi di dati </a>
+                  <a class="list-group-item list-group-item-action" id="list-FISICA-list" data-toggle="list" href="#list-FISICA" role="tab" aria-controls="FISICA">
+                    <span class="badge badge-secondary badge-pill">0</span> Fisica </a>
+                  <a class="list-group-item list-group-item-action" id="list-LP-list" data-toggle="list" href="#list-LP" role="tab" aria-controls="LP">
+                    <span class="badge badge-success badge-pill">1</span> Linguaggi di programamzione </a>
+                  <a class="list-group-item list-group-item-action" id="list-LC-list" data-toggle="list" href="#list-LC" role="tab" aria-controls="LC">
+                    <span class="badge badge-success badge-pill">2</span> Linguaggi e computabilità </a>
+                  <a class="list-group-item list-group-item-action" id="list-METODI-list" data-toggle="list" href="#list-METODI" role="tab" aria-controls="METODI">
+                    <span class="badge badge-secondary badge-pill">0</span> Metodi algebrici per l'informatica </a>
+                  <a class="list-group-item list-group-item-action" id="list-STATISTICA-list" data-toggle="list" href="#list-STATISTICA" role="tab" aria-controls="STATISTICA">
+                    <span class="badge badge-secondary badge-pill">0</span> Probabilità e statistica per l'informtica </a>
+                  <a class="list-group-item list-group-item-action" id="list-RSO-list" data-toggle="list" href="#list-RSO" role="tab" aria-controls="RSO">
+                    <span class="badge badge-success badge-pill">2</span> Reti e sistemi operativi </a>
+                  <a class="list-group-item list-group-item-action" id="list-SD-list" data-toggle="list" href="#list-SD" role="tab" aria-controls="SD">
+                    <span class="badge badge-secondary badge-pill">0</span> Sistemi distribuiti </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade" id="list-APS" role="tabpanel" aria-labelledby="list-APS-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-DB" role="tabpanel" aria-labelledby="list-DB-list">
+                    <a href="https://github.com/amarusofia/Appunti-universitari/tree/master/Basi%20di%20Dati/tex">Basi di Dati - Sofia</a> <br>
+                    <a href="https://github.com/JacopoDeAngelis/Appunti-universitari/tree/master/Basi%20di%20dati">Basi di Dati - Jacopo</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-FISICA" role="tabpanel" aria-labelledby="list-FISICA-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-LP" role="tabpanel" aria-labelledby="list-LP-list">
+                    <a href="https://github.com/JacopoDeAngelis/Appunti-universitari/tree/master/Linguaggi%20di%20programmazione">LP - Jacopo</a> <br>
+                    <a href="https://github.com/bigboss98/appunti/tree/master/Linguaggi%20di%20Programmazione">LP - bigboss98</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-LC" role="tabpanel" aria-labelledby="list-LC-list">
+                    <a href="https://github.com/JacopoDeAngelis/Appunti-universitari/tree/master/Linguaggi%20e%20computabilit%C3%A0">LC - Jacopo</a> <br>
+                    <a href="https://github.com/bigboss98/appunti/tree/master/Computabilit%C3%A0">LC - bigboss98</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-METODI" role="tabpanel" aria-labelledby="list-METODI-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-STATISTICA" role="tabpanel" aria-labelledby="list-STATISTICA-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-RSO" role="tabpanel" aria-labelledby="list-RSO-list">
+                    <a href="https://github.com/amarusofia/Appunti-universitari/tree/master/Sistemi%20Operativi/tex">Sistemi Operativi - Sofia</a> <br>
+                    <a href="https://github.com/JacopoDeAngelis/Appunti-universitari/tree/master/Reti%20e%20sistemi%20operativi">Reti - Jacopo</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-SD" role="tabpanel" aria-labelledby="list-SD-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Terzo anno
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+            <!--Materie terzo anno-->
+            <div class="row">
+              <div class="col-6">
+                <div class="list-group" id="3rdList" role="tablist">
+                  <a class="list-group-item list-group-item-action" id="list-APA-list" data-toggle="list" href="#list-APA" role="tab" aria-controls="APA">
+                    <span class="badge badge-success badge-pill">1</span> Analisi e progetto di algoritmi </a>
+                  <a class="list-group-item list-group-item-action" id="list-BI-list" data-toggle="list" href="#list-BI" role="tab" aria-controls="BI">
+                    <span class="badge badge-secondary badge-pill">0</span> Business intelligence per i servizi finanziari </a>
+                  <a class="list-group-item list-group-item-action" id="list-COMPLDB-list" data-toggle="list" href="#list-COMPLDB" role="tab" aria-controls="COMPLDB">
+                    <span class="badge badge-secondary badge-pill">0</span> Complementi di basi di dati </a>
+                  <a class="list-group-item list-group-item-action" id="list-ELABIMM-list" data-toggle="list" href="#list-ELABIMM" role="tab" aria-controls="ELABIMM">
+                    <span class="badge badge-secondary badge-pill">0</span> Elaborazione delle immagini </a>
+                  <a class="list-group-item list-group-item-action" id="list-BIOINF-list" data-toggle="list" href="#list-BIOINF" role="tab" aria-controls="BIOINF">
+                    <span class="badge badge-success badge-pill">1</span> Elementi di bioinformatica </a>
+                  <a class="list-group-item list-group-item-action" id="list-INFOGRAF-list" data-toggle="list" href="#list-INFOGRAF" role="tab" aria-controls="INFOGRAF">
+                    <span class="badge badge-secondary badge-pill">0</span> Informatica grafica </a>
+                  <a class="list-group-item list-group-item-action" id="list-INGSW-list" data-toggle="list" href="#list-INGSW" role="tab" aria-controls="INGSW">
+                    <span class="badge badge-secondary badge-pill">0</span> Ingegneria del software </a>
+                  <a class="list-group-item list-group-item-action" id="list-UX-list" data-toggle="list" href="#list-UX" role="tab" aria-controls="UX">
+                    <span class="badge badge-secondary badge-pill">0</span> Interazione uomo-macchina </a>
+                  <a class="list-group-item list-group-item-action" id="list-METODIFORMALI-list" data-toggle="list" href="#list-METODIFORMALI" role="tab" aria-controls="METODIFORMALI">
+                    <span class="badge badge-secondary badge-pill">0</span> Metodi formali </a>
+                  <a class="list-group-item list-group-item-action" id="list-GESTAZ-list" data-toggle="list" href="#list-GESTAZ" role="tab" aria-controls="GESTAZ">
+                    <span class="badge badge-secondary badge-pill">0</span> Metodi informatici per la gestione aziendale </a>
+                  <a class="list-group-item list-group-item-action" id="list-CPLUSPLUS-list" data-toggle="list" href="#list-CPLUSPLUS" role="tab" aria-controls="CPLUSPLUS">
+                    <span class="badge badge-secondary badge-pill">0</span> Programmazione C++ </a>
+                  <a class="list-group-item list-group-item-action" id="list-PROGDISPMOB-list" data-toggle="list" href="#list-PROGDISPMOB" role="tab" aria-controls="PROGDISPMOB">
+                    <span class="badge badge-secondary badge-pill">0</span> Programmazione di dispositivi mobili </a>
+                  <a class="list-group-item list-group-item-action" id="list-RO-list" data-toggle="list" href="#list-RO" role="tab" aria-controls="RO">
+                    <span class="badge badge-secondary badge-pill">0</span> Ricerca operativa e pianificazione delle risorse </a>
+                  <a class="list-group-item list-group-item-action" id="list-RA-list" data-toggle="list" href="#list-RA" role="tab" aria-controls="RA">
+                    <span class="badge badge-secondary badge-pill">0</span> Robotica e automazione </a>
+                  <a class="list-group-item list-group-item-action" id="list-SICUREZZA-list" data-toggle="list" href="#list-SICUREZZA" role="tab" aria-controls="SICUREZZA">
+                    <span class="badge badge-success badge-pill">1</span> Sicurezza ed affidabilità </a>
+                  <a class="list-group-item list-group-item-action" id="list-EMBEDDED-list" data-toggle="list" href="#list-EMBEDDED" role="tab" aria-controls="EMBEDDED">
+                    <span class="badge badge-secondary badge-pill">0</span> Sistemi embedded </a>
+                    <a class="list-group-item list-group-item-action" id="list-TCDM-list" data-toggle="list" href="#list-TCDM" role="tab" aria-controls="TCDM">
+                    <span class="badge badge-success badge-pill">1</span> Trattamento e codifica di dati multimediali </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade" id="list-APA" role="tabpanel" aria-labelledby="list-APA-list">
+                    <a href="https://github.com/ila/class-notes/tree/master/Analisi%20e%20Progettazione%20Algoritmi">Algoritmi2 - Ila</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-BI" role="tabpanel" aria-labelledby="list-BI-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-COMPLDB" role="tabpanel" aria-labelledby="list-COMPLDB-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-ELABIMM" role="tabpanel" aria-labelledby="list-ELABIMM-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-BIOINF" role="tabpanel" aria-labelledby="list-BIOINF-list">
+                    <a href="https://github.com/ila/class-notes/tree/master/Elementi%20di%20Bioinformatica">Bioinformatica - Ila</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-INFOGRAF" role="tabpanel" aria-labelledby="list-INFOGRAF-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-INGSW" role="tabpanel" aria-labelledby="list-INGSW-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-UX" role="tabpanel" aria-labelledby="list-UX-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-METODIFORMALI" role="tabpanel" aria-labelledby="list-METODIFORMALI-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-GESTAZ" role="tabpanel" aria-labelledby="list-GESTAZ-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-CPLUSPLUS" role="tabpanel" aria-labelledby="list-CPLUSPLUS-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-PROGDISPMOB" role="tabpanel" aria-labelledby="list-PROGDISPMOB-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-RO" role="tabpanel" aria-labelledby="list-RO-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-RA" role="tabpanel" aria-labelledby="list-RA-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-SICUREZZA" role="tabpanel" aria-labelledby="list-SICUREZZA-list">
+                    <a href="https://github.com/ila/class-notes/tree/master/Sicurezza%20e%20Affidabilit%C3%A0">Sicurezza - Ila</a>
+                  </div>
+                  <div class="tab-pane fade" id="list-EMBEDDED" role="tabpanel" aria-labelledby="list-EMBEDDED-list">
+                    <p class="noappunti">Sii il primo ad aggiungere appunti per questo corso</p>
+                  </div>
+                  <div class="tab-pane fade" id="list-TCDM" role="tabpanel" aria-labelledby="list-TCDM-list">
+                    <a href="https://github.com/ila/class-notes/tree/master/Trattamento%20e%20Codifica%20di%20Dati%20Multimediali">TCDM - Ila</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+    <!--Disclaimer-->
+    <div class="container-fluid text-center" align="center">
+      <h3>Disclaimer</h3>
+      Tutti gli appunti potrebbero contenere errori: nell'eventualità, siete pregati di notificarlo ai rispettivi autori. <br>
+      Il materiale qui contenuto non intende sostituirsi alle lezioni dei professori nè ai testi consigliati da questi ultimi.
+    </div>
+
+    <!--Prefooter-->
+    <div class="container" align="center">
+      <div class="prefooter">
+        <div class="row">
+          <div class="col-4"> 
+            <p style="font-size: 17px;">Vuoi contribuire?</p>
+            <p style="font-size: 14px;">Fai una pull request o contattaci.</p>
+          </div>
+          <div class="col-4">
+            <p style="font-size: 17px;">Blog</p>
+            <p style="font-size: 14px;">Coming soon!</p>
+          </div>
+          <div class="col-4">
+            <p style="font-size: 17px;">Chi siamo</p>
+            <p style="font-size: 14px;">Vai alla <a href="WebContent/Chi_siamo.html">lista degli autori</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!--
+  Lista autori degli appunti
+  Sofia
+  Jacopo
+  dlcgold
+  bigboss98
+-->
